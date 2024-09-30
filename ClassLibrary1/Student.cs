@@ -9,6 +9,6 @@ namespace College
 
         public string Email { set; get; }
 
-        public List<Examination> examination { set; get; }
+        public List<Examination> examination { set; get; }=new List<Examination>();
     }
 }
